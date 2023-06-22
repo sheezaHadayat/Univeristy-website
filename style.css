@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  margin-right: 50px;
+}
+
+
+.image-bg {
+  background-image: url('images/uet.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+  /* left: 0;
+  top: 139px; */
+}
+
+
+.text {
+  color: #fff;
+  text-align: center;
+  padding-top: 200px;
+  /* text-rendering: auto; */
+
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.trial {
+  float: left;
+  width: 33.33%;
+  height: 400px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+
+.about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.about button {
+  padding: 10px 20px;
+  background-color: #0fa6d4;
+  color: #fff;
+  border: none;
+  margin-top: 60px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.about button:hover {
+  background-color: #0753aa;
+}
+
+
+
+.categorie {
+  float: left;
+  width: 33.33%;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+
+}
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+
+.about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.contact-form {
+
+  background-color: rgb(56, 56, 56);
+  width: 350px;
+  height: 400px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.form {
+  padding: 10px;
+  color: rgb(235, 235, 235);
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+input[type=text],
+textarea {
+  width: 80%;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #0fa6d4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0753aa;
+}
+
+.footer-info {
+  float: left;
+  background-color: black;
+  width: 33.33%;
+  padding: 10px;
+  height: 430px;
+  margin-top: 20px;
+
+}
+
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
